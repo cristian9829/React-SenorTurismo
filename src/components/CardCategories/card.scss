@@ -1,0 +1,43 @@
+.card-categories{
+  position: relative;
+  background-image: url("https://canoistasolidario.files.wordpress.com/2009/06/rafting.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 400px;
+  cursor: pointer;
+  .overlay-card-categories{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 22, 23,0.3);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    .container-text{
+      height: 250px;
+      color: white;
+      text-shadow: 1px 2px black;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      .container-button{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30px;
+        .btn-card-categories{
+          background-color:#ffc107;
+          color: blue;
+          border: 2px solid #ffc107;
+          padding: 12px 55px;
+          border-radius: 0px 20px 20px 30px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

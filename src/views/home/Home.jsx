@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Hero from '../../containers/hero';
 import PlanRecommendations from '../../containers/plan_ recommendations';
+import Categories from '../../containers/categories';
 
 export default class Home extends Component{
   render(){
@@ -8,6 +9,7 @@ export default class Home extends Component{
       <React.Fragment>
         <Hero/>
         <PlanRecommendations/>
+        <Categories/>
       </React.Fragment> 
     )
   }
