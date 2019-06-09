@@ -1,17 +1,24 @@
 
 import React, {Component} from 'react';
-import style from './card.scss';
+import styles from './card.scss';
 
 export default class Card extends Component{
+  
+    
+    componentDidMount(){
+      let card = document.getElementById( this.props.id + "-card-categories");
+      card.style.backgroundImage = "url(" + this.props.image + ")";
+      console.log(this.props.image)
+    }
   render(){
     return(
       <React.Fragment>
-        <div className="card-categories">
+        <div id={this.props.id + "-card-categories"} className="card-categories">
           <div className="overlay-card-categories">
             <div className="container-text">
-              <h3 className="text-center">Lago Calima</h3>
+              <h3 className="text-center title">{this.props.title}</h3>
               <div className="container-button">
-                <button className="btn-card-categories text-primary">VER PLAN</button>
+                <button className="btn-card-categories">VER PLAN</button>
               </div>
             </div>
           </div>

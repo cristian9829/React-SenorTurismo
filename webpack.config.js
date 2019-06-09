@@ -20,6 +20,26 @@ const config = {
   module: {
     rules: [
       {
+        test: /\.(png|jpe?g|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {},
+          },
+        ],
+      },
+      { 
+        test: /\.(woff|woff2|eot|ttf|svg)$/, 
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+            }
+          }
+        ]
+      },
+      {
         test: /.jsx$/,
         exclude: /node_modules/,
         use : {

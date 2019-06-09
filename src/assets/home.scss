@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+@font-face {
+  font-family: Rollete;
+  src: url(../containers//fonts/rollete_qaku/RolleteQaku-Regular.ttf);
+}
+@font-face {
+  font-family: Stonehole;
+  src: url(../containers//fonts/stonehole/Stonehole_Demo.ttf);
+}
 
 
 /*Hero Home*/
 .section__home-hero{
   position: relative;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Basilica-buga.jpg/1024px-Basilica-buga.jpg");
+  background-image: url("../containers//background-hero/Buga.png");
   background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 600px;
+  height: 700px;
   color: white;
+  margin-bottom: 100px;
   .overlay-hero{
     position: absolute;
     top: 0;
@@ -18,13 +28,27 @@
     z-index: 1;
     background-color: rgba(22, 22, 23, 0.5);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
   }
   .container-text{
     padding: 20px 0px;
     text-align: center;
     z-index: 3000;
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 59px;
+    }
+    p{
+      font-family: Rollete;
+      font-size: 60px;
+    }
+  }
+
+  .btn-hero{ font-family: 'Montserrat'; font-weight: bolder;}
+
+  .container-card-hero{
+    display: flex; justify-content: center;
   }
 }
 
@@ -34,11 +58,29 @@
 .section__home-plan-recommendations{
   height: auto;
   padding: 50px 0px;
+  .container-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .title_plan{
+      color: #F8A200;
+      font-size: 162px;
+      font-family: Rollete;
+    }
+    .title_recommendations{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 60px;
+      color:#000000;
+      margin-top: -100px;
+      z-index: -1;
+    }
+  }
 }
 
 /* Section Categories */
 .section__home-categories{
   padding: 80px 0px;
+  h1{font-family: 'Montserrat'; font-weight: bold; color:#041A34;}
 }
 
 /* Section destinations */

@@ -1,7 +1,6 @@
 .card-categories{
   position: relative;
-  background-image: url("https://canoistasolidario.files.wordpress.com/2009/06/rafting.jpg");
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   height: 400px;
   cursor: pointer;
@@ -15,7 +14,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-
+    .title{font-family: 'Montserrat', sans-serif;}
     .container-text{
       height: 250px;
       color: white;
@@ -31,11 +30,12 @@
         top: 30px;
         .btn-card-categories{
           background-color:#ffc107;
-          color: blue;
+          color: #145394;
           border: 2px solid #ffc107;
           padding: 12px 55px;
           border-radius: 0px 20px 20px 30px;
           font-weight: 600;
+          box-shadow: 0 0 8px grey;
         }
       }
     }

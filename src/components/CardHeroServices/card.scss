@@ -1,0 +1,24 @@
+.card-services{
+  background: #092A4B;
+  position: relative;
+  top: 80px;
+  height: 150px;
+  width: 90%;
+  border-radius: 4px;
+  .container-icons{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    .col-md-3{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container-icon{
+      text-align: center;
+      cursor: pointer;
+      font-size: 23px;
+    }
+  }
+}

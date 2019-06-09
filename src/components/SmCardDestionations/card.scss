@@ -1,9 +1,9 @@
 .SmCard-destinations{
-  background-image: url("https://files.lafm.com.co/assets/public/styles/image_631x369/public/2018-06/calilafm_1_0.jpg?itok=xcyeEQgy");
   background-size: cover;
   height: 200px;
   position: relative;
   cursor: pointer;
+  font-family: Stonehole;
 
   .overlay-destinations-card{
     position: absolute;
@@ -15,5 +15,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 80px;
   }
 }

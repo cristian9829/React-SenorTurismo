@@ -19,13 +19,17 @@ export default class Destinations extends Component{
                 <div className="row">
                   <div className="col-md-12">
                     <SmCard
-                      title="Buga"
+                      id={1}
+                      title="buga"
+                      image="https://files.lafm.com.co/assets/public/styles/image_631x369/public/2018-06/calilafm_1_0.jpg?itok=xcyeEQgy"
                     />
                     <br/>
                   </div>
                   <div className="col-md-12">
                     <SmCard
-                      title="El paraiso"
+                      id={2}
+                      title="el paraiso"
+                      image="https://www.livevalledelcauca.com/assets2018/images/el-cerrito/hacienda-el-paraiso.jpg"
                     />
                   </div>
                 </div>
@@ -35,12 +39,18 @@ export default class Destinations extends Component{
                 <div className="row">
                   <div className="col-md-6">
                     <LgCard
-                      title="Valle del Cauca"
+                      id={1}
+                      Ptitle="VALLE DEL"
+                      Stitle="Cauca"
+                      image="https://i.ytimg.com/vi/IcuwDnXI0tQ/maxresdefault.jpg"
                     />
                   </div>
                   <div className="col-md-6">
                     <LgCard
-                      title="Aguas Termales"
+                      id={2}
+                      Ptitle="AGUAS"
+                      Stitle="Termales"
+                      image="https://quierocuidarme.dkvsalud.es/sites/default/files/styles/vivelasalud_ficha_825x464/public/imagen/2018-08/aguas-termales_0.jpg?itok=XA5m8QkV"
                     />
                   </div>
                 </div>

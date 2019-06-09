@@ -1,10 +1,11 @@
 .LgCard-destinations{
   position: relative;
-  background-image: url("https://quierocuidarme.dkvsalud.es/sites/default/files/styles/vivelasalud_ficha_825x464/public/imagen/2018-08/aguas-termales_0.jpg?itok=XA5m8QkV");
   height: 428px;
   background-size: cover;
   background-position: center;
   cursor: pointer;
+  font-family: Stonehole;
+  font-size: 60px;
 
   .overlay-card-destinations{
     position: absolute;
@@ -16,5 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .Ptitle{font-family: 'Montserrat', sans-serif;}
   }
 }

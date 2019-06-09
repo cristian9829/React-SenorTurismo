@@ -9,7 +9,10 @@ export default class PlanRecommendations extends Component{
         <div className="container">
           <div className="row">
             <div className="col text-center">
-              <h1><span className="text-warning">Planes y</span><br/> Recomendaciones</h1>
+              <div className="container-title">
+                <span className="title_plan">planes y</span>
+                <span className="title_recommendations">RECOMENDACIONES</span>
+              </div>
             </div>
           </div>
           <br/>
@@ -17,24 +20,26 @@ export default class PlanRecommendations extends Component{
             <div className="col-md-7">
               <CardLg
                 Ptitle="Un tour de arquitectura y cultura"
-                Stitle="ciudades"
-                Ttitle="Religiosas"
+                Stitle="CIUDADES"
+                Ttitle="religiosas"
               />
             </div>
             <div className="col-md-5">
               <div className="row">
                 <div className="col-md-12">
                   <CardSm
-                    Ptitle="Conoce Cali y su salsa"
-                    Stitle="Mira Ve"
+                    Ptitle="Un paraiso del Valle"
+                    Stitle="TURISMO"
+                    Ttitle="ecologico"
                     alignText = "text-center"
                   />
                   <br/>
                 </div>
                 <div className="col-md-12">
                   <CardSm
-                    Ptitle="Un tour de arquitectura y cultura"
-                    Stitle="ciudades"
+                    Ptitle="conoce cali y su salsa"
+                    Stitle="Mira"
+                    Ttitle="ve!"
                     alignText= "text-right"
                   />
                 </div>

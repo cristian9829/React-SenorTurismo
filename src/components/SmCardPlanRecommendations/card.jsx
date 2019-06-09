@@ -7,8 +7,9 @@ export default class Card extends Component{
       <div className="card-sm-plan">
         <div className="overlay-card">
           <div className={"container-text " + this.props.alignText}>
-            <p>{this.props.Ptitle}</p>
-            <h2>{this.props.Stitle}</h2>
+            <p className="PTitle">{this.props.Ptitle}</p>
+            <p className="Stitle">{this.props.Stitle}</p>
+            <p className="Ttitle">{this.props.Ttitle}</p>
           </div>
         </div>
       </div>
