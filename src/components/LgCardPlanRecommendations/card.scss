@@ -1,6 +1,5 @@
 .card-lg-plan{
   width: 100%;
-  background-image: url("https://bugaplaza.com/wp-content/uploads/2017/05/Palacio-1024x768.jpg");
   height: 825px;
   background-size: cover;
   position: relative;
@@ -17,12 +16,22 @@
     justify-content: flex-end;
     flex-direction: column;
     .container-text{
-      width: 100%;
+      width: 70%;
       color: white;
       padding: 30px 20px;
-      p{font-family: 'Montserrat', sans-serif; font-size: 30px; }
-      h2{font-family: 'Montserrat', sans-serif; font-size: 82px; font-weight: 100;}
-      h4{font-family: Stonehole; font-size: 189px;}
+      text-align: right;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      p{font-family: 'Montserrat', sans-serif; font-size: 20px; }
+      h4{font-family: Stonehole; font-size: 100px;}
+      h2{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 50px; 
+        font-weight: 100;
+        margin-top: -20px;
+        margin-bottom: -35px;
+      }
     }
   }
 }

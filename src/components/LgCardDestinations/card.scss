@@ -17,6 +17,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .Ptitle{font-family: 'Montserrat', sans-serif;}
+    .Ptitle{
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: -60px;
+      text-shadow: 0 0 8px grey;
+    }
+    .Stitle{
+      text-align: center;
+      font-size:100px;
+    }
   }
 }

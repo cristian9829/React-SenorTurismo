@@ -10,9 +10,7 @@ export default class Categories extends Component{
       <div className="section__home-categories">  
         <div className="container">
           <div className="row">
-            <div className="col">
-              <h1>CATEGORIAS</h1>
-            </div>
+            <h1>CATEGORIAS</h1>
           </div>
           <br/>
           <div className="row">

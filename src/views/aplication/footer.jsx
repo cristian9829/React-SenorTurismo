@@ -1,30 +1,61 @@
 import React, {Component} from 'react';
+import style from '../../assets/footer.scss';
+import social from './images/socialFooter.svg';
 
 export default class Footer extends Component{
   render(){
     return(
-      <footer className="bg-dark pt-5 pb-5 text-white mt-3">
+      <footer className="text-white mt-3">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <h1>LOGO</h1>
+              <ul>
+                <li><h5>MENÙ</h5></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Events</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
             </div>
 
             <div className="col-md-3">
-              <a href="#" className="btn btn-link text-white">Cali, Valle, Cauca</a><br/>
-              <a href="#" className="btn btn-link text-white">Colombia</a><br/>
-              <a href="#" className="btn btn-link text-white">BIH</a>
+              <ul>
+                <li><h5>GUIAS DE VIAJE</h5></li>
+                <li>Lodging</li>
+                <li>Gastronomy</li>
+                <li>Activities</li>
+                <li>Culture</li>
+                <li>Transportation</li>
+              </ul>
             </div>
 
             <div className="col-md-3">
-              <a href="#" className="btn btn-link text-white">+57 3271822879</a><br/>
-              <a href="#" className="btn btn-link text-white">Terminos y Condiciones</a><br/>
-              <a href="#" className="btn btn-link text-white">Politica de Uso</a>
+              <h5>SIGUENOS</h5>
+              <img
+                src={social}
+                className="img-fluid"
+              />
             </div>
 
             <div className="col-md-3">
-              <h4>Siguenos en Redes</h4>
-
+              <h4>Suscribete</h4>
+              <form>
+                <label htmlFor="info-input">Recibe informacion de nuestros servicios</label>
+                <div className="row">
+                  <div className="col-md-9">
+                    <input 
+                      id="info-input"
+                      className="form-control"
+                      placeholder="Escribe tu correo electronico"
+                    />
+                  </div>
+                  <div className="col-md-3">
+                    <input id="btn-info" className="btn btn-info" value="Enviar" type="submit"/>
+                  </div>
+                </div>
+              </form>
+              
             </div>
           </div>
         </div>

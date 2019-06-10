@@ -1,18 +1,22 @@
-#nav{
-  
-}
-.nav-item{
-  margin: 0px 10px;
+.navbar{
+  height: 115px;
+  display: flex;
+  justify-content: flex-end;
+  .container-items{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    .container-logo{
+      background: white;
+      padding: 25px 25px;
+      margin-top: 15px;
+      border-radius: 0px 0px 40px 40px;
+      box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+    }
+  }
 }
 
 .bg-white{
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
-.bg-nav{
-  background-color: transparent;
-  .nav-link{
-    color: white;
-    
-  }
-}

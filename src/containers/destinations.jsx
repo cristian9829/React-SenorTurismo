@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import SmCard from '../components/SmCardDestionations/card';
 import LgCard from '../components/LgCardDestinations/card';
+import Image1CardLg from '../components/LgCardDestinations/images/image1.png';
+import Image2CardLg from '../components/LgCardDestinations/images/image2.png';
+import Image1CardSm from '../components/SmCardDestionations/images/imagen1.png';
+import Image2CardSm from '../components/SmCardDestionations/images/imagen2.png';
 
 export default class Destinations extends Component{
   render(){
@@ -9,7 +13,7 @@ export default class Destinations extends Component{
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 className="text-primary">NUESTROS DESTINOS</h1>
+              <h1 className="text-destinations">NUESTROS DESTINOS</h1>
             </div>
           </div>
           <br/>
@@ -21,7 +25,7 @@ export default class Destinations extends Component{
                     <SmCard
                       id={1}
                       title="buga"
-                      image="https://files.lafm.com.co/assets/public/styles/image_631x369/public/2018-06/calilafm_1_0.jpg?itok=xcyeEQgy"
+                      image={Image1CardSm}
                     />
                     <br/>
                   </div>
@@ -29,7 +33,7 @@ export default class Destinations extends Component{
                     <SmCard
                       id={2}
                       title="el paraiso"
-                      image="https://www.livevalledelcauca.com/assets2018/images/el-cerrito/hacienda-el-paraiso.jpg"
+                      image={Image2CardSm}
                     />
                   </div>
                 </div>
@@ -42,7 +46,7 @@ export default class Destinations extends Component{
                       id={1}
                       Ptitle="VALLE DEL"
                       Stitle="Cauca"
-                      image="https://i.ytimg.com/vi/IcuwDnXI0tQ/maxresdefault.jpg"
+                      image={Image2CardLg}
                     />
                   </div>
                   <div className="col-md-6">
@@ -50,7 +54,7 @@ export default class Destinations extends Component{
                       id={2}
                       Ptitle="AGUAS"
                       Stitle="Termales"
-                      image="https://quierocuidarme.dkvsalud.es/sites/default/files/styles/vivelasalud_ficha_825x464/public/imagen/2018-08/aguas-termales_0.jpg?itok=XA5m8QkV"
+                      image={Image1CardLg}
                     />
                   </div>
                 </div>
